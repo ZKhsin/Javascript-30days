@@ -13,9 +13,7 @@
 
 ---
 
-
-![每天寫扣練等](coding-computer.jpg)
-
+<img src="coding-computer.jpg" width="400px" alt="coding">
 
 ---
 
