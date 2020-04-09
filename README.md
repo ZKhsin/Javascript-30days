@@ -13,7 +13,9 @@
 
 ---
 
+
 <img src="coding-computer.jpg" width="400px" alt="coding">
+
 
 ---
 
