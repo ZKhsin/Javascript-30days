@@ -23,4 +23,4 @@
 | Javascript 30天   |        主題         |                 內容                    |
 |:--:|:--:|:--:| 
 |       DAY 1       | JavaScript Drum Kit |   按鍵盤播放出對應按鍵聲音(並產生特效)   |
-
+|       DAY 2       |  JS and CSS clock   |      用JS與CSS搭配製作一個實時的時鐘     |

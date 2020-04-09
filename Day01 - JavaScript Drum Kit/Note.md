@@ -1,7 +1,7 @@
 ## **Day1 Note**
 
 
-<div align=center><img src="js_drum_kit.png" width=500></div>
+<div align=center><img src="drum_kit.png" width=500></div>
 
 ---
 ### `本日主要內容 --`
