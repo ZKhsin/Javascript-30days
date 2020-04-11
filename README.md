@@ -35,3 +35,4 @@
 |       DAY 1       | JavaScript Drum Kit |   按鍵盤播放出對應按鍵聲音(並產生特效)   |
 |       DAY 2       |  JS and CSS clock   |      用JS與CSS搭配製作一個實時的時鐘     |
 |       Day 3       |     CSS Variable    |            製造即時濾鏡效果             |
+|       Day 4       |  Array Cardio Day 1 |             練習Array操作               |
