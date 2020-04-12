@@ -74,10 +74,10 @@
   // 依據鍵盤或滑鼠事件取得對應的keyCode(兩者type不同)
   
   // 藉由兩事件取得的keyCode來進行不同的特效返還
-  if (typeof keyType === "number") {
-    key.classList.add('playing');
+  if (typeof keyType === "number") {  
+    key.classList.add('playing'); // 如果是鍵盤事件移除playing
   } else {
-    key.classList.add('click');
+    key.classList.add('click');  // 如果是滑鼠事件移除click
   }
 
   // removeTransition內
