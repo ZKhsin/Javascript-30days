@@ -55,3 +55,33 @@
 
 * 超方便的template literals
   * 利用反引號(`)組合字串，範圍內可利用 ${} 加入變數操作
+
+
+---
+
+### **`新增 --`**
+* 2020/4/12 --
+  * 新增滑鼠點擊觸發功能，並且與鍵盤觸發展現不同顏色特效(.click)
+  * 因事件不同取得對應的keyCode(鍵盤type:number, 滑鼠type:string)
+  * 於移除特效函式內增加滑鼠點擊事件之特效移除，以避免特效持續不消失
+
+* 新增程式碼解析
+```js
+  keys.forEach(key => key.addEventListener("click", playSound)); // 新增監聽滑鼠點擊功能並傳入palySound
+  
+  // playSound內
+  let keyType = e.keyCode || this.getAttribute('data-key'); 
+  // 依據鍵盤或滑鼠事件取得對應的keyCode(兩者type不同)
+  
+  // 藉由兩事件取得的keyCode來進行不同的特效返還
+  if (typeof keyType === "number") {
+    key.classList.add('playing');
+  } else {
+    key.classList.add('click');
+  }
+
+  // removeTransition內
+  this.classList.remove("playing") || this.classList.remove("click");
+  // 移除鍵盤事件特效或滑鼠事件特效
+
+```
