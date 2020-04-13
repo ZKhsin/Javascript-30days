@@ -34,6 +34,6 @@
 |:--:|:--:|:--:|:--:|
 |       DAY 1       | JavaScript Drum Kit |   按鍵盤播放出對應按鍵聲音(並產生特效)   |  滑鼠點擊觸發功能，並且與鍵盤觸發展現不同顏色特效 |
 |       DAY 2       |  JS and CSS clock   |      用JS與CSS搭配製作一個實時的時鐘     | 調整指針樣式及新增顯示當日日期與時間 |
-|       Day 3       |     CSS Variable    |            製造即時濾鏡效果              ||
+|       Day 3       |     CSS Variable    |            製造即時濾鏡效果              | 新增3種濾鏡效果並微調版面 |
 |       Day 4       |  Array Cardio Day 1 |             練習Array操作               ||
 |       Day 5       |  Flex Panel Gallery |      點擊圖片後會動畫展開並展示效果      ||
