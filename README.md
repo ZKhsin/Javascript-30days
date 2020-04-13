@@ -37,3 +37,4 @@
 |       Day 3       |     CSS Variable    |            製造即時濾鏡效果              | 新增3種濾鏡效果並微調版面 |
 |       Day 4       |  Array Cardio Day 1 |             練習Array操作               ||
 |       Day 5       |  Flex Panel Gallery |      點擊圖片後會動畫展開並展示效果      ||
+|       Day 6       |      Type Ahead     |   運用JS製造搜尋即時顯示功能  ||
