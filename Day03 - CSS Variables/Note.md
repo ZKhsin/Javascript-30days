@@ -71,3 +71,41 @@
 * filter
   * 運用實現各種濾鏡功能，可用於調整圖片、背景或邊框等等
   * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
+
+
+---
+
+### **`新增功能 --`**
+* 新增濾鏡功能(grayscale, brightness, contrast)
+
+
+* 新增程式碼解析
+
+```html
+
+<!-- 因新增三種濾鏡效果,為版面整齊新增一個div, 每個div裡面放置3種效果 -->
+<label for="grayscale">Grayscale:</label> <!-- 增加灰階,並設置值從0到100 -->
+<input id="grayscales" type="range" name="grayscale" min="0" max="100" value="0" data-sizing="%"> 
+<label for="brightness">Brightness:</label>  <!-- 增加亮度, 並設置值從0到200, 正常畫面為100%, 可選擇調整亮度變暗或變亮 -->
+<input id="brightness" type="range" name="brightness" min="0" max="200" value="100" data-sizing="%">
+<label for="contrast">Contrast:</label> <!-- 增加對比度, 並設置值從0到200, 正常畫面為100%, 可選擇調整對比值更高或更低 -->
+<input id="contrast" type="range" name="contrast" min="0" max="200" value="100" data-sizing="%">
+
+
+```
+
+```css
+
+/* 於root內加入新增濾鏡變數 */
+:root {
+  --grayscale: 0%;  /* 灰階 */
+  --brightness: 100%;  /* 亮度 */
+  --contrast: 100%;  /* 對比度 */
+}
+
+img {
+  filter: blur(var(--blur)) grayscale(var(--grayscale)) brightness(var(--brightness)) contrast(var(--contrast));
+  /* 如要使用兩個以上的濾鏡功能需寫在一起, 分開寫的話則會覆蓋掉原先寫的濾鏡功能 */
+}
+
+```
