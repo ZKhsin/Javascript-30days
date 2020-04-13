@@ -62,3 +62,58 @@
   * rotate(): 旋轉物件(角度+deg)
   * oragin: 可變形軸心(預設為物件中心點)，可調整百分比
   * 更多transform用法看[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+
+
+  ---
+
+### **`新增功能 --`**
+* 新增顯示今天日期與時間(練習使用createElement & addChild)
+* 修改指針形狀及顏色
+
+* 新增程式碼解析
+
+```css
+/* 於body中加入flex-direction讓新增的div可與時鐘保持垂直狀態*/
+flex-direction: column;
+
+/* 新增調整指針長度及顏色, 因分針與時針調整完寬度會位移, 所以加入margin-left協助調整位置*/
+.second-hand {
+  height: 2px;
+  background: #e74c3c;
+}
+
+.min-hand {
+  height: 4px;
+  width: 45%;
+  margin-left: 5%;
+  background: #2c3e50;
+}
+
+.hour-hand {
+  width: 35%;
+  margin-left: 15%;
+  background: #2c3e50;
+}
+
+/* 新增的div使用,為調整字體大小及顏色 */
+.time {
+  font-size: 2em;
+  color: #162230;
+}
+
+```
+
+
+```js
+
+const today = document.createElement("div");  // 建立一個創建div元素
+today.classList.add("time");  // 於創建的div元素內加入className="time"
+document.body.appendChild(today); // 將創建的div元素加入body
+
+const year = now.getFullYear(); // 取得當前年份
+const month = now.getMonth() + 1;  // 取得當前月份,特別注意月份是從0開始,故欲取得當前月份需+1
+const date = now.getDate();  // 取得當前日期
+
+today.innerHTML = `${year}/${month}/${date}  ${hours}:${mins}:${seconds}`;  // 將當前的年月日及時分秒加入進創建的div內
+
+```
