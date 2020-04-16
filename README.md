@@ -14,7 +14,7 @@
 ---
 
 
-<img src="coding-computer.jpg" width="400px" alt="coding">
+<img src="bg.png" width="800px">
 
 
 ---
@@ -40,3 +40,4 @@
 |       Day 6       |        Type Ahead      |   運用JS製造搜尋即時顯示功能             ||
 |       Day 7       |    Array Cardio Day 2  |            練習Array操作part2           ||
 |       Day 8       |  Fun With HTML5 Canvas |  使用Canvas製作畫布並用滑鼠繪製彩色線條  ||
+|       Day 9       |  Dev Tools Domination  |         練習使用Chrome開發工具          ||
