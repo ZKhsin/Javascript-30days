@@ -14,7 +14,7 @@
 ---
 
 
-<img src="bg.png" width="800px">
+<div align=center><img src="bg.png" width="800px"></div>
 
 
 ---
