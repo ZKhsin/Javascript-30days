@@ -1,20 +1,13 @@
 # Javascript - 30days
 
 
-## 為從 Hello World 晉級而修行
-
-
-程式語言都從Hello World開始，學會以後的再強化就是靠各種修行了(合掌)
-
-
-昨天睡前意外找到[Wes Bos](https://javascript30.com/)建立的30天挑戰課程，雖然對目前的自己來說似乎有些越級打怪...但！為了快速升等，嘗試冒險是必須的！
-所以...開啟紀錄我的打怪之旅吧！練功囉！
+<div align=center><img src="bg.png" width="800px"></div>
 
 
 ---
 
+在學習的過程中常感到困惑與不安全感，這時候我會喜歡到處搜尋資料，4月初的某天睡前意外找到[Wes Bos](https://javascript30.com/)建立的30天挑戰課程後，決定開始加入課程強化自身能力，並且每日紀錄學習歷程及藉由學習內容新增內容，期盼完成後變強的自己！❤
 
-<div align=center><img src="bg.png" width="800px"></div>
 
 
 ---
