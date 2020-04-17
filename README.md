@@ -41,3 +41,4 @@
 |       Day 7       |    Array Cardio Day 2  |            練習Array操作part2           ||
 |       Day 8       |  Fun With HTML5 Canvas |  使用Canvas製作畫布並用滑鼠繪製彩色線條  ||
 |       Day 9       |  Dev Tools Domination  |         練習使用Chrome開發工具          ||
+|       Day 10      |  Hold Shift And Check Checkboxs | 使用shift+左鍵完成連續區間選取功能 ||
