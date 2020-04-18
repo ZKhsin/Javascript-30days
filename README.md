@@ -6,7 +6,7 @@
 
 ---
 
-在學習的過程中常感到困惑與不安全感，這時候我會喜歡到處搜尋資料，4月初的某天睡前意外找到[Wes Bos](https://javascript30.com/)建立的30天挑戰課程後，決定開始加入課程強化自身能力，並且每日紀錄學習歷程及藉由學習內容新增內容，期盼完成後變強的自己！❤
+在學習的過程中常感到困惑與不安全感，這時候我會喜歡到處搜尋資料，4月初的某天睡前意外找到[Wes Bos](https://javascript30.com/)建立的30天挑戰課程後，決定開始加入課程強化自身能力，並且每日紀錄學習歷程及藉由學習內容新增內容，期盼完成後變得更強❤
 
 
 
@@ -35,3 +35,4 @@
 |       Day 8       |  Fun With HTML5 Canvas |  使用Canvas製作畫布並用滑鼠繪製彩色線條  ||
 |       Day 9       |  Dev Tools Domination  |         練習使用Chrome開發工具          ||
 |       Day 10      |  Hold Shift And Check Checkboxs | 使用shift+左鍵完成連續區間選取功能 ||
+|       Day 11      | Custom Video Player  | 運用HTML video建立客製化撥放器功能 ||
