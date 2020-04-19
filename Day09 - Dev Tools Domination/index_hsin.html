@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+    * {
+      margin: 20px;
+      padding: 0;
+      background: #3d3d3d;
+      text-align: center;
+    }
+
+
+    div {
+      margin-top: 50px;
+    }
+
+    #check {
+      font-size: 60px;
+      color: white;
+    }
+
+    #dev {
+      font-family: 'Roboto Slab', serif;
+      font-size: 60px;
+      letter-spacing: 10px;
+      color: #ffeaa7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+  <div>
+    <p id="check"><i class="far fa-hand-pointer"></i>Check it!</p>
+  </div>
+  <div>
+    <p id="dev">Look at the Console start Dev Tools!<i class="far fa-hand-point-right"></i> </p>
+  </div>
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular
+
+    console.log("Hello");
+
+    // Interpolated
+
+    let word = "test";
+    console.log("Hello I am a %s string!", word);
+    console.log(`Hello I am a ${word} string!`)
+
+    // Styled
+
+    console.log("%c I am some great text", "font-size: 50px; background: red; text-shadow: 10px 10px 0 blue;")
+
+    // warning!
+
+    console.warn("OH NOOOOOO!!");
+
+    // Error :|
+
+    console.error("ERRORRRRR!!!");
+
+    // Info
+
+    console.info("Here have some info...")
+
+    // Testing
+
+    console.assert(1 === 2, "That's impossible");
+
+    const p = document.querySelector("p");
+    console.assert(p.classList.contains("ouch"), "You did not select the right Element!");
+
+    // clearing
+
+    console.clear();
+
+    // Viewing DOM Elements
+
+    console.log(p);
+    console.dir(p);
+
+    // Grouping together
+
+    dogs.forEach(dog => {
+      // console.group(`${dog.name}`);
+      console.groupCollapsed(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`);
+    })
+
+    // counting
+
+    console.count("Wes");
+    console.count("Steve");
+    console.count("Wes");
+    console.count("Steve");
+    console.count("Wes");
+    console.count("Steve");
+    console.count("Wes");
+    console.count("Wes");
+    console.count("Wes");
+    console.count("Steve");
+    console.count("Steve");
+
+    // timing
+
+    console.time("fetching data");
+    fetch("http://api.github.com/users/wesbos")
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd("fetching data");
+        console.log(data);
+      })
+
+
+    // table
+    console.table(dogs);
+
+  </script>
+</body>
+
+</html>
