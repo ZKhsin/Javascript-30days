@@ -127,3 +127,26 @@
 * toggle
   * 偵測是否存在指定的className，如存在則刪除，若不存在則新增，再搭配CSS做到動態效果上很方便
   * [MDN--classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+
+
+### **`新增功能 --`**
+* 新增判斷圖片展開狀態，如原先已有圖片展開便會關閉，並展開新點選圖片
+
+* 新增程式碼解析
+
+```js
+
+// 宣告一變數用來儲存每次的點選
+let lastClick = document.querySelector(".panels")
+
+function toggelOpen(e) {
+  // 判斷每次進入事件與上次事件是否相同,如果不相同則移除上次事件的效果,並設定上次事件指向新的進入事件
+  if (this !== lastClick) {
+    lastClick.classList.remove('open');
+    lastClick = this;
+  }
+
+  this.classList.toggle("open");
+}
+
+```
