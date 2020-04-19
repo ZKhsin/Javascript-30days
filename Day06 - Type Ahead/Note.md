@@ -96,3 +96,31 @@
 
 * Element.innerHTML
   * 透過innerHTML可以獲取或設置HTML元素，並可使用來添加字串
+
+
+### **`新增功能 --`**
+* 新增顯示座標(運用正則運算式取大約參考座標)
+* 將搜尋結果排序後顯示
+
+* 新增程式碼解析
+
+```js
+
+// 藉由正則運算取出座標小數後六位當作參考座標
+function floatWithSix(x) {
+  return x.toString().replace(/([0-9]+\.[0-9]{6})[0-9]*/, "$1");
+}
+
+function displayMatches() {
+    // 搜尋輸出加入座標並且座標需先進去floatWithSix中運用正則將小數點取至第六位
+    return `
+          <li>
+            <span class="name">${cityName}, ${stateName}</span>
+            <span class="population">${numberWithCommas(place.population)}</span>
+            <span class="location">(${floatWithSix(place.latitude)}, ${floatWithSix(place.longitude)})</span>
+          </li>
+        `;
+  // 運用sort()先排序搜尋結果再輸出
+  }).sort().join("");
+
+```

@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background: #ffc600;
   font-family: 'helvetica neue';
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
 }
 
@@ -16,7 +16,7 @@ input {
 }
 
 .search-form {
-  max-width: 400px;
+  max-width: 550px;
   margin: 50px auto;
 }
 
@@ -57,16 +57,20 @@ input.search {
 
 .suggestions li:nth-child(even) {
   transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-  background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #EFEFEF 100%);
 }
 
 .suggestions li:nth-child(odd) {
   transform: perspective(100px) rotateX(-3deg) translateY(3px);
-  background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
+  background: linear-gradient(to top, #ffffff 0%, #EFEFEF 100%);
 }
 
 span.population {
   font-size: 15px;
+}
+
+span.location {
+  font-size: 12px;
 }
 
 .hl {
