@@ -84,3 +84,34 @@
 * hue色相值
   * 在HSL和HSV色彩空間中，H指的就是色相，是以紅色為0度（360度）、黃色為60度、綠色為120度、青色為180度、藍色為240度、粉紅色為300度
 
+---
+
+### **`新增功能 --`**
+* 新增按鈕呈現globalCompositeOperation樣式(light、mulitiply)
+* 新增按鈕清除畫布並將globalCompositeOperation回歸預設
+
+* 新增程式碼解析
+
+```js
+
+const buttons = document.querySelectorAll("button"); // 選取出新增的三個按鈕
+
+function checkButton() {
+  // 分別設定三個按鈕欲呈現的狀態
+  if (this.innerText === "Clear") {
+    ctx.clearRect(0, 0, 1500, 1500);  // 清空畫布
+    ctx.globalCompositeOperation = "source-over"; // 將畫布合成效果回歸預設值
+  }
+  else if (this.innerText === "Lighter") {
+    ctx.globalCompositeOperation = "lighter"; // 新舊圖形重疊區域的顏色，由新、舊圖形的顏色碼相加而得(重疊部分變亮)
+  }
+  else if (this.innerText === "Multiply") {
+    ctx.globalCompositeOperation = "multiply"; // 新舊圖形重疊區域的顏色，由新舊圖形的顏色碼相乘而得(重疊部分變暗)
+  }
+}
+
+// 監聽點擊按鈕事件並進入checkButton
+buttons.forEach(button => button.addEventListener("click", checkButton));
+
+
+```
