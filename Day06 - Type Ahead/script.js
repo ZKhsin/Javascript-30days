@@ -7,10 +7,16 @@ fetch(endpoint)
   .then(data => cities.push(...data));
 
 function findMatches(wordToMatch, cities) {
-  return cities.filter(place => {
+  let matches = cities.filter(place => {
     const regex = new RegExp(wordToMatch, "gi");
     return place.city.match(regex) || place.state.match(regex);
   });
+  // ADD
+  if (wordToMatch.length === 0) {
+    matches = [];
+    suggestions.innerHTML = "";
+  }
+  return matches;
 }
 
 function numberWithCommas(x) {

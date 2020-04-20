@@ -97,14 +97,32 @@
 * Element.innerHTML
   * 透過innerHTML可以獲取或設置HTML元素，並可使用來添加字串
 
+---
 
 ### **`新增功能 --`**
 * 新增顯示座標(運用正則運算式取大約參考座標)
 * 將搜尋結果排序後顯示
+* 原搜尋結果會保留於頁面，故增加調整如搜尋條為空時，頁面搜尋結果亦為空
 
 * 新增程式碼解析
 
 ```js
+
+// 修改findMatches
+function findMatches(wordToMatch, cities) {
+  // 宣告一變數放入filter篩選出的匹配內容
+  let matches = cities.filter(place => {
+    const regex = new RegExp(wordToMatch, "gi");
+    return place.city.match(regex) || place.state.match(regex);
+  });
+  
+  // 如果搜尋條內容長度為0,匹配內容為空且suggestions呈現亦為空
+  if (wordToMatch.length === 0) {
+    matches = [];
+    suggestions.innerHTML = "";
+  }
+  return matches;
+}
 
 // 藉由正則運算取出座標小數後六位當作參考座標
 function floatWithSix(x) {
