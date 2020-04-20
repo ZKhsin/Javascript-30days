@@ -1,6 +1,6 @@
 ## **Day12 Note**
 
-<div align=center><img src="" width=800></div>
+<div align=center><img src="key_sequence_detection.png" width=800></div>
 
 ---
 ### `本日主要內容 --`
