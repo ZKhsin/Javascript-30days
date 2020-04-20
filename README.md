@@ -36,4 +36,5 @@
 |       Day 9       |  Dev Tools Domination  |         練習使用Chrome開發工具          | 新增版面 |
 |       Day 10      |  Hold Shift And Check Checkboxs | 使用shift+左鍵完成連續區間選取功能 ||
 |       Day 11      | Custom Video Player  | 運用HTML video建立客製化撥放器功能 ||
-|       Day 12      | Key Sequence Detection | 建立隱藏密碼，輸入正確取得對應特效 |
+|       Day 12      | Key Sequence Detection | 建立隱藏密碼，輸入正確取得對應特效 ||
+|       Day 13      |   Slide in on Scroll  | 滾動頁面到定點時產生滑入圖片的動畫效果 ||
