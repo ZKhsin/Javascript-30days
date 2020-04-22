@@ -32,3 +32,4 @@
 |      Day 12      |     Key Sequence Detection      |    建立隱藏密碼，輸入正確取得對應特效    |                                                  |
 |      Day 13      |       Slide in on Scroll        |  滾動頁面到定點時產生滑入圖片的動畫效果  |                                                  |
 |      Day 14      | JavaScript Reference VS Copying |      練習 JS 陣列及物件的引用和複製      |                                                  |
+|      Day 15      |          LocalStorage           |  透過 Localstorage 進行資料儲存增加功能  |                                                  |
