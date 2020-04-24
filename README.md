@@ -34,3 +34,4 @@
 |      Day 14      | JavaScript Reference VS Copying |      練習 JS 陣列及物件的引用和複製      |                                                  |
 |      Day 15      |          LocalStorage           |  透過 Localstorage 進行資料儲存增加功能  |                                                  |
 |      Day 16      |        Mouse Move Shadow        |        讓文字的陰影隨滑鼠位置偏移        |                                                  |  |
+|      Day 17      |      Sort Without Articles      |     運用正則排除某些部份進行陣列排序     |                                                  |  |
