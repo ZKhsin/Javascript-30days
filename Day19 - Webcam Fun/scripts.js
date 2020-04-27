@@ -21,8 +21,8 @@ function getVideo() {
 }
 
 function paintToCanvas() {
-  const width = video.videoWidth / 2;
-  const height = video.videoHeight / 2;
+  const width = video.videoWidth;
+  const height = video.videoHeight;
   canvas.width = width;
   canvas.height = height;
 
@@ -32,9 +32,9 @@ function paintToCanvas() {
     let pixels = ctx.getImageData(0, 0, width, height);
     // mess with them
     // pixedls = redEffext(pixels);
-    // pixels = rgbSplit(pixels);
+    pixels = rgbSplit(pixels);
     // ctx.globalAlpha = 0.1;
-    pixels = greenScreen(pixels);
+    // pixels = greenScreen(pixels);
     // put them back
     ctx.putImageData(pixels, 0, 0);
   }, 16);
@@ -43,7 +43,7 @@ function paintToCanvas() {
 function takePhoto() {
   // Played the sound
   snap.currentTime = 0;
-  // snap.play();
+  snap.play();
 
   // take the data out of the canvas
   const data = canvas.toDataURL("image/jpeg");
