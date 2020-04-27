@@ -83,3 +83,70 @@ populationList(items, itemsList); // 重整陣列
 
 * e.preventDefault()
   - 如果事件是可以取消，則取消事件的預設行為，常用於提交 submit 時，因 submit 後定會重整網頁，故可藉此取消重整網頁的預設行為，取消預設行為並不會影響到事件傳遞，仍會繼續執行後續傳遞
+
+---
+
+### **`新增 --`**
+
+- 增加品項刪除按鈕
+- 增加品項全選按鈕
+
+- 新增程式碼解析
+
+```js
+const all = document.querySelector(".all"); // 選取新增的全選按鈕
+
+// 全選按鈕功能
+function selectAll(e) {
+  // 將全選按鈕功能的checked狀態寫入items裡面每個項目的checked狀態,讓兩者同步
+  const checkAll = e.target.checked;
+  items.forEach((index) => {
+    index.done = checkAll;
+  });
+  localStorage.setItem("items", JSON.stringify(items)); // 存檔
+  populationList(items, itemsList); // 更新
+}
+
+all.addEventListener("click", selectAll); // 監聽點擊全選按鈕事件
+
+// 新增品項刪除按鈕
+function populationList(plates = [], platesList) {
+  platesList.innerHTML = plates
+    .map((plate, i) => {
+      // 於每個輸出項目多加一項刪除按鈕
+      return `
+    <li>
+    <input type="checkbox" data-index=${i} id="item${i}" ${
+        plate.done ? "checked" : ""
+      }>
+    <label for="item${i}">${plate.text}</label>
+    <button class="btn">delete</button>
+    </li>
+    `;
+    })
+    .join("");
+}
+
+// 於toggleDone中增加刪除條件
+function toggleDone(e) {
+  // 確認進入事件target必須為input或button
+  if (!e.target.matches("input") && !e.target.matches("button")) return;
+  // 假設一個變數用來辨別儲存狀態
+  let saveData = false;
+  const el = e.target;
+  const index = el.dataset.index;
+  if (e.target.matches("input")) {
+    items[index].done = !items[index].done;
+    saveData = true;
+  } else if (e.target.matches("button")) {
+    // 如果進入事件target是button, 運用splice刪除點選的項目
+    items.splice(index, 1);
+    saveData = true;
+  }
+  // 如進入到input及button修改時(saveData=true),儲存再更新
+  if (saveData) {
+    localStorage.setItem("items", JSON.stringify(items));
+    populationList(items, itemsList);
+  }
+}
+```
