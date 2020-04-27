@@ -29,12 +29,12 @@
 |      Day 9       |      Dev Tools Domination       |              練習使用 Chrome 開發工具               |                     新增版面                     |
 |      Day 10      | Hold Shift And Check Checkboxs  |         使用 shift+左鍵完成連續區間選取功能         |       新增按鈕實現全選功能及修改原選取條件       |
 |      Day 11      |       Custom Video Player       |        運用 HTML video 建立客製化撥放器功能         |               添加全螢幕及更換圖示               |
-|      Day 12      |     Key Sequence Detection      |         建立隱藏密碼，輸入正確取得對應特效          |                                                  |
-|      Day 13      |       Slide in on Scroll        |       滾動頁面到定點時產生滑入圖片的動畫效果        |                                                  |
-|      Day 14      | JavaScript Reference VS Copying |           練習 JS 陣列及物件的引用和複製            |                                                  |
-|      Day 15      |          LocalStorage           |       透過 Localstorage 進行資料儲存增加功能        |                                                  |
-|      Day 16      |        Mouse Move Shadow        |             讓文字的陰影隨滑鼠位置偏移              |                                                  |
-|      Day 17      |      Sort Without Articles      |          運用正則排除某些部份進行陣列排序           |                                                  |
+|      Day 12      |     Key Sequence Detection      |         建立隱藏密碼，輸入正確取得對應特效          |                  新增音效及版面                  |
+|      Day 13      |       Slide in on Scroll        |       滾動頁面到定點時產生滑入圖片的動畫效果        |                        無                        |
+|      Day 14      | JavaScript Reference VS Copying |           練習 JS 陣列及物件的引用和複製            |                     新增版面                     |
+|      Day 15      |          LocalStorage           |       透過 Localstorage 進行資料儲存增加功能        |          新增項目刪除按鈕及全選項目按鈕          |
+|      Day 16      |        Mouse Move Shadow        |             讓文字的陰影隨滑鼠位置偏移              |                     新增陰影                     |
+|      Day 17      |      Sort Without Articles      |          運用正則排除某些部份進行陣列排序           |                        無                        |
 |      Day 18      |   Adding Up Time With Reduce    |       利用 map 及 reduce 計算出播放清單總秒數       |                                                  |
 |      Day 19      |           Webcam Fun            |        取得視訊鏡頭影像並達到拍照及濾鏡效果         |                                                  |
 |      Day 20      |        Speech Detection         | 利用 SpeechRecognition 語音識別並將語音轉為文字輸出 |                                                  |
