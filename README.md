@@ -39,3 +39,4 @@
 |      Day 19      |           Webcam Fun            |        取得視訊鏡頭影像並達到拍照及濾鏡效果         |                                                  |
 |      Day 20      |        Speech Detection         | 利用 SpeechRecognition 語音識別並將語音轉為文字輸出 |                                                  |
 |      Day 21      |           Geolocation           |         運用 Geolocation 取得裝置位置與速度         |                                                  |
+|      Day 22      |  Follow Along Link Highlighter  |     實現 HightLight 跟著滑鼠指定位置移動的效果      |                                                  |
