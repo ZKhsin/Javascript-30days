@@ -41,3 +41,4 @@
 |      Day 21      |           Geolocation           |         運用 Geolocation 取得裝置位置與速度         |                                                  |
 |      Day 22      |  Follow Along Link Highlighter  |     實現 HightLight 跟著滑鼠指定位置移動的效果      |                                                  |
 |      Day 23      |        Speech Synthesis         |         運用 SpeechSynthesis 將文字轉為語音         |                                                  |
+|      Day 24      |           Sticky Nav            |             運用 CSS 與 JS 製作置頂選單             |                                                  |
