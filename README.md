@@ -43,3 +43,5 @@
 |      Day 23      |               Speech Synthesis                |         運用 SpeechSynthesis 將文字轉為語音         |                                                  |
 |      Day 24      |                  Sticky Nav                   |             運用 CSS 與 JS 製作置頂選單             |                                                  |
 |      Day 25      | Event Capture, Propagation, Bubbling and Once |                 探討監聽事件的機制                  |                                                  |
+|      Day 26      |            Stripe Follow Along Nav            |             製作滑鼠移動展開選單的功能              |                                                  |
+|      Day 27      |                Click and Drag                 |               製作拖曳移動的水平捲軸                |                                                  |
