@@ -45,3 +45,4 @@
 |      Day 25      | Event Capture, Propagation, Bubbling and Once |                 探討監聽事件的機制                  |                                                  |
 |      Day 26      |            Stripe Follow Along Nav            |             製作滑鼠移動展開選單的功能              |                                                  |
 |      Day 27      |                Click and Drag                 |               製作拖曳移動的水平捲軸                |                                                  |
+|      Day 28      |            Video Speed Controller             |             製作可控制影片速度的進度條              |                                                  |
