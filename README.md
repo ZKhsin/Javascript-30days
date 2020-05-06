@@ -46,3 +46,4 @@
 |      Day 26      |            Stripe Follow Along Nav            |             製作滑鼠移動展開選單的功能              |                                                  |
 |      Day 27      |                Click and Drag                 |               製作拖曳移動的水平捲軸                |                                                  |
 |      Day 28      |            Video Speed Controller             |             製作可控制影片速度的進度條              |                                                  |
+|      Day 29      |                Countdown Timer                |                   製作倒數計時器                    |                                                  |
