@@ -47,3 +47,4 @@
 |      Day 27      |                Click and Drag                 |               製作拖曳移動的水平捲軸                |                                                  |
 |      Day 28      |            Video Speed Controller             |             製作可控制影片速度的進度條              |                                                  |
 |      Day 29      |                Countdown Timer                |                   製作倒數計時器                    |                                                  |
+|      Day 30      |                 Whack A Mole                  |                   製作打地鼠遊戲                    |                                                  |
