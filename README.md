@@ -35,7 +35,7 @@
 |      Day 15      |                 LocalStorage                  |       透過 Localstorage 進行資料儲存增加功能        |          新增項目刪除按鈕及全選項目按鈕          |
 |      Day 16      |               Mouse Move Shadow               |             讓文字的陰影隨滑鼠位置偏移              |                     新增陰影                     |
 |      Day 17      |             Sort Without Articles             |          運用正則排除某些部份進行陣列排序           |                        無                        |
-|      Day 18      |          Adding Up Time With Reduce           |       利用 map 及 reduce 計算出播放清單總秒數       |                                                  |
+|      Day 18      |          Adding Up Time With Reduce           |       利用 map 及 reduce 計算出播放清單總秒數       |             新增版面於頁面顯示總秒數             |
 |      Day 19      |                  Webcam Fun                   |        取得視訊鏡頭影像並達到拍照及濾鏡效果         |                                                  |
 |      Day 20      |               Speech Detection                | 利用 SpeechRecognition 語音識別並將語音轉為文字輸出 |                                                  |
 |      Day 21      |                  Geolocation                  |         運用 Geolocation 取得裝置位置與速度         |                                                  |
