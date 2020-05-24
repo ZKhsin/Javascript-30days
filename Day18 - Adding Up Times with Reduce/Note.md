@@ -46,3 +46,10 @@ console.log(hours, mins, secondsLeft);
   - parseFloat: 將字串轉換為浮點數
   - parseInt: 將字串轉換為 radix 進制的整數，radix 介於 2-36 之間
   - [MDN--Built-in Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+
+---
+
+### _`新增 --`_
+
+- 新增版面及新增將總秒數更新於頁面
+- 新增秒數小於 10 輸出樣式
