@@ -77,11 +77,24 @@
       font-size: 15px;
     }
 
+    .location {
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .location span {
+      margin-top: 10px;
+      display: block;
+    }
+
+
     /*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
   </style>
   <script>
     const arrow = document.querySelector(".arrow");
     const speed = document.querySelector(".speed-value");
+    const body = document.querySelector("body");
+    const p = document.createElement("p");
 
     navigator.geolocation.watchPosition((data) => {
       // console.log(data);
@@ -89,7 +102,10 @@
       arrow.style.transform = `rotate(${data.coords.heading}deg)`
       // let coords = 22;
       // speed.textContent = coords;
-      // arrow.style.transform = `rotate(${coords}deg)`
+      // arrow.style.transform = `rotate(${coords}deg)`;
+      p.className = "location";
+      p.innerHTML = `lat: ${data.coords.latitude} <span>lng: ${data.coords.longitude}</span>`;
+      body.appendChild(p);
     }, (err) => {
       console.err(err);
       alert("Hey!You gotta allow that to happen!")

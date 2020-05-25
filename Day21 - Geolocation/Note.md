@@ -36,3 +36,9 @@ navigator.geolocation.watchPosition(
     - getCurrentPosition(): 取得裝置當前位置
     - WatchPosition(): 回傳裝置位置，當裝置位置更新時會自動被呼叫再回傳
   - [MDN--Gelocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation)
+
+---
+
+### **`新增 --`**
+
+- 新增顯示座標
