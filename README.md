@@ -36,15 +36,15 @@
 |      Day 16      |               Mouse Move Shadow               |             讓文字的陰影隨滑鼠位置偏移              |                     新增陰影                     |
 |      Day 17      |             Sort Without Articles             |          運用正則排除某些部份進行陣列排序           |                        無                        |
 |      Day 18      |          Adding Up Time With Reduce           |       利用 map 及 reduce 計算出播放清單總秒數       |             新增版面於頁面顯示總秒數             |
-|      Day 19      |                  Webcam Fun                   |        取得視訊鏡頭影像並達到拍照及濾鏡效果         |                                                  |
-|      Day 20      |               Speech Detection                | 利用 SpeechRecognition 語音識別並將語音轉為文字輸出 |                                                  |
-|      Day 21      |                  Geolocation                  |         運用 Geolocation 取得裝置位置與速度         |                                                  |
+|      Day 19      |                  Webcam Fun                   |        取得視訊鏡頭影像並達到拍照及濾鏡效果         |                        無                        |
+|      Day 20      |               Speech Detection                | 利用 SpeechRecognition 語音識別並將語音轉為文字輸出 |                        無                        |
+|      Day 21      |                  Geolocation                  |         運用 Geolocation 取得裝置位置與速度         |                   新增顯示座標                   |
 |      Day 22      |         Follow Along Link Highlighter         |     實現 HightLight 跟著滑鼠指定位置移動的效果      |                                                  |
-|      Day 23      |               Speech Synthesis                |         運用 SpeechSynthesis 將文字轉為語音         |                                                  |
+|      Day 23      |               Speech Synthesis                |         運用 SpeechSynthesis 將文字轉為語音         |                        無                        |
 |      Day 24      |                  Sticky Nav                   |             運用 CSS 與 JS 製作置頂選單             |                                                  |
-|      Day 25      | Event Capture, Propagation, Bubbling and Once |                 探討監聽事件的機制                  |                                                  |
+|      Day 25      | Event Capture, Propagation, Bubbling and Once |                 探討監聽事件的機制                  |                        無                        |
 |      Day 26      |            Stripe Follow Along Nav            |             製作滑鼠移動展開選單的功能              |                                                  |
 |      Day 27      |                Click and Drag                 |               製作拖曳移動的水平捲軸                |                                                  |
-|      Day 28      |            Video Speed Controller             |             製作可控制影片速度的進度條              |                                                  |
+|      Day 28      |            Video Speed Controller             |             製作可控制影片速度的進度條              |                        無                        |
 |      Day 29      |                Countdown Timer                |                   製作倒數計時器                    |                                                  |
 |      Day 30      |                 Whack A Mole                  |                   製作打地鼠遊戲                    |                                                  |
